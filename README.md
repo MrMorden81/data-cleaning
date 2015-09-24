@@ -1,2 +1,4 @@
 # data-cleaning
 This is the repository that contains my data cleaning project
+
+This repository contains an R script that reads in and cleans the data as per the instructions in the class project.  If the working directory is the root of the Samsung dataset, (default name is "UCI HAR DATASET"), all that is necessary is to source the run_analysis.R file located in this repository, then type "run_analysis()" inot an R prompt.  This function first reads in the data from the training data set as well as the test data set.  Then, the program combines them to form a single data set.  After that, the program extracts the means of the measurements themselves as well as the means of the standard deviations.  Finally, for each person and for each activity type, the program calculates the mean of the measurement means and the mean of the standard deviations.  The program then returns the table containing the data thus calculated.
