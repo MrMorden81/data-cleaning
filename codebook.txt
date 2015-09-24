@@ -1,0 +1,72 @@
+Below is a list of the variables in the output of my program.  They come from the linear accelerometer and angular accelerometers (gyroscopes) found in the smartphones.  A time derivative was applied to these signals to obtain the liner and angular jerk.  Additional filters were applied to remove noise from the data, and also to remove the acceleration due to gravity.  Finally, a fourier transform was applied to obtain frequency domain information.  The units are written after each measurement below:
+
+'Average body acceleration (X)' meters/second^2 (m/s^2)
+'Average body acceleration (Y)' m/s^2
+'Average body acceleration (Z)' m/s^2
+'Average gravity (X)' m/s^2
+'Average gravity (Y)' m/s^2
+'Average gravity (Z)' m/s^2
+'Average body jerk (X)' m/s^3
+'Average body jerk (Y)' m/s^3
+'Average body jerk (Z)' m/s^3
+'Average body gyro (X)' 1/s^2
+'Average body gyro (Y)' 1/s^2
+'Average body gyro (Z)' 1/s^2
+'Average gyro jerk (X)' 1/s^3
+'Average gyro jerk (Y)' 1/s^3
+'Average gyro jerk (Z)' 1/s^3
+'Average body acceleration magnitude' m/s^2
+'Average body accleration jerk magnitude' m/s^3
+'Average body gyro magnitude' 1/s^2
+'Average body gyro jerk magnitude' 1/s^3
+'Average body acceleration (X) (FFT)' m/s
+'Average body acceleration (Y) (FFT)' m/s
+'Average body accelration (Z) (FFT)' m/s
+'Average body acceleration jerk (X) (FFT)' m/s^2
+'Average body Accleration Jerk (Y) (FFT)' m/s^2
+'Average body acceleration jerk (Z) (FFT)' m/s^2
+'Averabe body gyro (X) (FFT)' 1/s
+'Average body gyro (Y) (FFT)' 1/s
+'Average body gyro (Z) (FFT)' 1/s
+'Average body acceleration magintued (FFT)' m/s
+'Average body acceleration jerk magnitude (FFT)' m/s^2
+'Average body gyro magnitude (FFT)' 1/s
+'Average body gyro jerk magnitude (FFT)' 1/s^2
+'Average body body gyro jerk magnitude' 1/s
+
+Below are listed the standard deviations of the above measurements.  They have the same units as the measurement they correspond to.
+
+'Std. Dev. body acceleration (X)'
+'Std. Dev. body acceleration (Y)'
+'Std. Dev. body acceleration (Z)'
+'Std. Dev. gravity (X)'
+'Std. Dev. gravity (Y)'
+'Std. Dev. gravity (Z)'
+'Std. Dev. body jerk (X)'
+'Std. Dev. body jerk (Y)'
+'Std. Dev. body jerk (Z)'
+'Std. Dev. body gyro (X)'
+'Std. Dev. body gyro (Y)'
+'Std. Dev. body gyro (Z)'
+'Std. Dev. gyro jerk (X)'
+'Std. Dev. gyro jerk (Y)'
+'Std. Dev. gyro jerk (Z)'
+'Std. Dev. body acceleration magnitude'
+'Std. Dev. body accleration jerk magnitude'
+'Std. Dev. body gyro magnitude'
+'Std. Dev. body gyro jerk magnitude'
+'Std. Dev. body acceleration (X) (FFT)'
+'Std. Dev. body acceleration (Y) (FFT)'
+'Std. Dev. body accelration (Z) (FFT)'
+'Std. Dev. body acceleration jerk (X) (FFT)'
+'Std. Dev. body Accleration Jerk (Y) (FFT)'
+'Std. Dev. body acceleration jerk (Z) (FFT)'
+'Averabe body gyro (X) (FFT)'
+'Std. Dev. body gyro (Y) (FFT)'
+'Std. Dev. body gyro (Z) (FFT)'
+'Std. Dev. body acceleration magintued (FFT)'
+'Std. Dev. body acceleration jerk magnitude (FFT)'
+'Std. Dev. body gyro magnitude (FFT)'
+'Std. Dev. body gyro jerk magnitude (FFT)'
+'Std. Dev body body gyro jerk magnitude'
+
